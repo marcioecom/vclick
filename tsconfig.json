@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "lib": [
+      "esnext"
+    ],
+    "esModuleInterop": true,
+    "typeRoots": [
+      "./src/@types",
+      "./node_modules/@types"
+    ]
+  },
+  "exclude": [
+    "**/*.test.ts",
+    "**/*.spec.ts",
+    "jest.config.ts"
+  ]
+}
